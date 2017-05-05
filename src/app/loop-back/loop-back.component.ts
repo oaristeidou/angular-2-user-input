@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-loop-back',
   templateUrl: './loop-back.component.html',
   styleUrls: ['./loop-back.component.css']
 })
-export class LoopBackComponent implements OnInit {
+export class LoopBackComponent{
+  values:string ='';
 
-  constructor() { }
-
-  ngOnInit() {
+  onKeyUpEvent(value:string){
+    this.values += value + "|";
   }
-
 }
