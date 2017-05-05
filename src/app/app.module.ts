@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ClickMeComponent } from './click-me/click-me.component';
 import { OnkeyupComponent } from './onkeyup/onkeyup.component';
+import { LoopBackComponent } from './loop-back/loop-back.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClickMeComponent,
-    OnkeyupComponent
+    OnkeyupComponent,
+    LoopBackComponent
   ],
   imports: [
     BrowserModule,
