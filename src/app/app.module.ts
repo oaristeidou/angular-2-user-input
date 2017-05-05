@@ -8,6 +8,7 @@ import { ClickMeComponent } from './click-me/click-me.component';
 import { OnkeyupComponent } from './onkeyup/onkeyup.component';
 import { LoopBackComponent } from './loop-back/loop-back.component';
 import { OnkeyupEnterComponent } from './onkeyup-enter/onkeyup-enter.component';
+import { ListOfMembersComponent } from './list-of-members/list-of-members.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { OnkeyupEnterComponent } from './onkeyup-enter/onkeyup-enter.component';
     ClickMeComponent,
     OnkeyupComponent,
     LoopBackComponent,
-    OnkeyupEnterComponent
+    OnkeyupEnterComponent,
+    ListOfMembersComponent
   ],
   imports: [
     BrowserModule,

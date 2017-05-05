@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+
+<input #member
+       (keyup.enter)="addMember(member.value); member.value=''"
+>
+<button (click)="addMember(member.value); member.value=''">Add member</button>
+
+<ul>
+  <li *ngFor="let memb of members">
+    {{memb.name}}
+  </li>
+</ul>
